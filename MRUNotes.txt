@@ -1,0 +1,72 @@
+Full Stack Data Science
+- Python
+- Data Collection Techniques
+  - Files - Excel/CSV, JSON, PDF (Raw Text)
+  - Database - MySQL
+  - API Calls / Scraping
+- Data Analysis
+  - Data Cleaning
+  - EDA - Exploratory Data Analysis
+	- Handle Missing Values
+	- Feature Extraction
+	- Outlier Detection
+  - Data Visualization
+- Data Preprocessing
+  - Feature Scaling
+  - Label Encoding and OneHot Encoding
+  - Train Test Split
+- Machine Learning / Deep Learning
+- Gradient Descent
+
+- Deployment
+  - Streamlit
+  - Django
+
+pip install streamlit
+
+streamlit run app.py --server.port 80
+
+ngrok.exe http 80
+
+pip install django
+django-admin startproject project_name
+cd project_name
+python manage.py runserver
+python manage.py startapp app
+
+
+MVC - Model View Controller
+
+1. create a folder templates inside app
+2. create index.html inside templates
+3. write a function in views.py to render index.html
+
+
+
+https://github.com/ravi4all/SentimentAnalysisApp
+
+
+git init - create new repository
+git add - Stage commit
+git commit - Save files on git
+git status - check status of repository
+git push - push changes to remote repository
+git pull - pull changes from remote repository
+git branch - create a new branch
+git merge - merge changes from one branch to another
+=======================================
+Check version of git
+git --version
+
+Login from git
+git config --global user.name "username"
+git config --global user.email "email_id"
+
+git clone "https://github.com/ravi4all/SentimentAnalysisApp.git"
+
+git init
+git add .
+git commit -m "message..."
+
+
+
